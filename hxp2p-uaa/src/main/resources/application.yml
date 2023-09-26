@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: uaa-service
+  cloud:
+    nacos:
+      server-addr: hxweaving.com:8849
+  datasource:
+    druid:
+      url: jdbc:mysql://hxweaving.com:3306/p2p_consumer?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: SuZ6nfYEEr5LRyaL
+
+server:
+  servlet:
+    context-path: /uaa

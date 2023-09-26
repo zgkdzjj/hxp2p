@@ -1,0 +1,24 @@
+server:
+  servlet:
+    context-path: /consumer
+spring:
+  application:
+    name: consumer-service
+  cloud:
+    nacos:
+      server-addr: 47.74.93.54:8849
+  datasource:
+    druid:
+      url: jdbc:mysql://hxweaving.com:3306/p2p_uaa?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: SuZ6nfYEEr5LRyaL
+
+
+springdoc:
+  version: 1.0.0
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto

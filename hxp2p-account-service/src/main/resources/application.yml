@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: account-service
+  cloud:
+    nacos:
+      server-addr: 47.74.93.54:8849
+  datasource:
+    druid:
+      url: jdbc:mysql://hxweaving.com:3306/p2p_account?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: SuZ6nfYEEr5LRyaL
+server:
+  servlet:
+    context-path: /account
+  port: 53030
+
+sms:
+  enable: true
+  url: http://47.74.93.54:56085/sailing/
+
+springdoc:
+  version: 1.0.0
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+
+

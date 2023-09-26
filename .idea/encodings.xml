@@ -9,6 +9,10 @@
     <file url="file://$PROJECT_DIR$/hxp2p-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hxp2p-consumer-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hxp2p-consumer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxp2p-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxp2p-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxp2p-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxp2p-uaa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
